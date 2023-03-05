@@ -1,0 +1,116 @@
+CSS Code
+
+#body-div{
+    background-color: black;
+    height: 800px;
+    border: 1px solid black;
+}
+#outer{
+    margin: 50px;
+    border: 1px solid black;
+    background-color: white;
+    width: 400px;
+    height: 380px;
+    border-radius: 2%;
+    box-shadow: 0px 3px 10px white;
+}
+#img{
+    border-radius: 4%;
+    position: relative;
+    top: 14px;
+    left: 14px;
+}
+#heading{
+    margin-left: 19px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+#course{
+    margin-left: 19px;
+    margin-top: -10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+#horiz{
+    margin-left: 20px;
+    margin-right: 135px;
+}
+#rupee{
+    margin-left: 20px;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(12, 162, 221);
+}
+#Rupee{
+    position: relative;
+    left: 60px;
+    top: -35px;
+    color: black;
+    
+}
+#off{
+    border: 1px solid black;
+    width: 70px;
+    height: 30px;
+    border-radius: 10%;
+    position: relative;
+    top: -70px;
+    left: 125px;
+    background-color: rgb(82, 185, 82);
+    color: white;
+}
+#qwe{
+    position: relative;
+    bottom: 10px;    
+    left: 4px;
+}
+
+
+
+HTML Code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Card</title>
+
+    <link rel="stylesheet" href="card.css">
+</head>
+
+<body>
+   <div id="body-div">
+            
+    <div id="outer">
+        <!-- <a href="https://www.thecodehelp.in/course/web-development-bootcamp"></a> -->
+        <img src="./large_Web_Dev_670f900667_1286d11fc1.jpg" id="img"
+         width="370px"
+         height="200px"
+        alt="">
+
+        <h1 id="heading">Web Development Master</h1>
+        <h1 id="course">Course @dot Batch</h1>
+
+        <hr id="horiz">
+
+        <div id="rupee">&#8377; 4500  
+
+            <p id="Rupee"><s>&#8377; 6999</s></p>
+            <!-- <s> --- strike tag used for cross line over element -->
+
+            <div id="off">
+               <p id="qwe">42% off</p>
+            </div>
+
+            
+                <!--  -->
+        </div>
+
+        
+    </div>
+
+    </div> 
+</body>
+</html>
